@@ -1,4 +1,5 @@
 import java.util.Map;
+
 public class Product {
     private String SKU;
     private String name;
@@ -17,9 +18,9 @@ public class Product {
     public String getDescription() { return description; }
     public Map<String, Integer> getSizes() { return sizes; }
 
-    @Override
     public String toString() {
         return SKU + " | " + name + " | " + description + " | " + sizes;
     }
 }
+
 
